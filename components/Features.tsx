@@ -1,4 +1,5 @@
 import { FiFileText, FiHelpCircle, FiBook } from "react-icons/fi"
+import Link from "next/link";
 
 export default function Features() {
   return (
@@ -11,6 +12,7 @@ export default function Features() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {/* Summarize Card */}
+          <Link href="/summarize">
           <div className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 text-white border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20">
             <div className="flex items-center justify-center w-16 h-16 bg-blue-500/20 rounded-xl mb-6 group-hover:bg-blue-500/30 transition-colors duration-300">
               <FiFileText className="w-8 h-8 text-blue-400" />
@@ -35,8 +37,10 @@ export default function Features() {
               </li>
             </ul>
           </div>
+          </Link>
 
           {/* MCQs Card */}
+          <Link href="/mcq">
           <div className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 text-white border border-gray-700 hover:border-green-500 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/20">
             <div className="flex items-center justify-center w-16 h-16 bg-green-500/20 rounded-xl mb-6 group-hover:bg-green-500/30 transition-colors duration-300">
               <FiHelpCircle className="w-8 h-8 text-green-400" />
@@ -61,8 +65,10 @@ export default function Features() {
               </li>
             </ul>
           </div>
+          </Link>
 
           {/* Explanation Card */}
+          <Link href="/explanation">
           <div className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 text-white border border-gray-700 hover:border-purple-500 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20">
             <div className="flex items-center justify-center w-16 h-16 bg-purple-500/20 rounded-xl mb-6 group-hover:bg-purple-500/30 transition-colors duration-300">
               <FiBook className="w-8 h-8 text-purple-400" />
@@ -87,6 +93,7 @@ export default function Features() {
               </li>
             </ul>
           </div>
+          </Link>
         </div>
       </div>
     </div>
