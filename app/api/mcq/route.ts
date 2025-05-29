@@ -33,6 +33,8 @@ export async function POST(req: Request) {
   const prompt = promptLines.join("\n")
 
   // 2) Assemble the single content entry with parts
+  
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const parts: any[] = [
     { text: prompt }
   ]

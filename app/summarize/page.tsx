@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import { Karla } from "next/font/google";
 import { FiCopy } from "react-icons/fi";
-import { FiFileText, FiHelpCircle, FiBook } from "react-icons/fi"
+import { FiFileText } from "react-icons/fi"
 
 const karla = Karla({
   subsets: ["latin"],

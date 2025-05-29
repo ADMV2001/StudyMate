@@ -1,4 +1,4 @@
-import { FiLinkedin, FiGithub, FiMail, FiHeart } from "react-icons/fi"
+import { FiLinkedin, FiGithub, FiMail } from "react-icons/fi"
 import { FaHandHoldingHeart } from "react-icons/fa";
 import { Karla } from "next/font/google";
 

@@ -4,7 +4,7 @@ import React, { useState, ChangeEvent } from "react"
 import { FiCopy, FiDownload, FiTrash2, FiSettings, FiCheckSquare, FiSquare } from "react-icons/fi"
 import { Karla } from "next/font/google"
 import { jsPDF } from "jspdf"
-import { FiFileText, FiHelpCircle, FiBook } from "react-icons/fi"
+import { FiHelpCircle} from "react-icons/fi"
 
 const karla = Karla({
   subsets: ["latin"],
