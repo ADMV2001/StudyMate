@@ -1,9 +1,16 @@
 import { FiLinkedin, FiGithub, FiMail, FiHeart } from "react-icons/fi"
 import { FaHandHoldingHeart } from "react-icons/fa";
+import { Karla } from "next/font/google";
+
+
+const karla = Karla({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-t from-black via-gray-900 to-gray-800 border-t border-gray-700">
+    <footer className={` ${karla.className} bg-gradient-to-t from-black via-gray-900 to-gray-800 border-t border-gray-700`}>
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-48 py-12">
         <div className="flex flex-col items-center space-y-8 md:grid md:grid-cols-3 md:gap-8 md:space-y-0 mb-8">
           {/* Brand Section */}

@@ -22,11 +22,11 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full fixed top-0 h-[65px] backdrop-blur-lg rounded-b-xl flex items-center justify-between px-4 sm:px-6 ${karla.className} z-10 backdrop-blur-md `}
+      className={`w-full fixed top-0 h-[65px] backdrop-blur-lg flex items-center justify-between px-4 sm:px-6 ${karla.className} z-10 backdrop-blur-md `}
     >
       {/* Logo (Left Corner) */}
       <Link href="/">
-      <div className="flex-shrink-0 text-[25px] font-extrabold flex ">
+      <div className="flex-shrink-0 text-[25px] font-extrabold flex text-white ">
         <Image
           src="/logo.png"
           alt="StudyMate Logo"
